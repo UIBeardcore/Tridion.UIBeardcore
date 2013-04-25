@@ -20,7 +20,7 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     */
     ?>
-
+    <link rel="icon" href="uibeardcore.ico" />
     <?php wp_head(); ?>
 </head>
 
