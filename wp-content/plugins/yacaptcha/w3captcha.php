@@ -30,8 +30,8 @@ class W3CAPTCHA{
 		$image = imagecreatetruecolor(CAPTCHA_WIDTH, CAPTCHA_HEIGHT);
 		//imagealphablending($image, true);
 		
-		$back_color	= imagecolorallocate($image, 255, 255, 255);	/* rbg - background color */
-		$font_color	= imagecolorallocate($image, 32, 64, 96);			/* rbg- shadow color */
+        $back_color	= imagecolorallocate($image, 248, 249, 249);	/* rbg - background color */
+		$font_color	= imagecolorallocate($image, 32, 64, 96);		/* rbg- shadow color */
 
 		imagefill($image, 0, 0, $back_color);
 

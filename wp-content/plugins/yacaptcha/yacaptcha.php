@@ -24,7 +24,8 @@ Author URI: http://www.remyroy.com
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-$yaCaptchaCharInputMsg = 'Characters in the image above';
+//$yaCaptchaCharInputMsg = 'Characters in the image above';
+$yaCaptchaCharInputMsg = 'Characters in the image';
 $yaCaptchaCharNoMatchMsg = 'Characters do not match what is shown in the image. Please retry.';
 $yaCaptchaCharAlternateCaptchaText = 'CAPTCHA image';
 
