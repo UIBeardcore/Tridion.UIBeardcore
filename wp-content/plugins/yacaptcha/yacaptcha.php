@@ -47,7 +47,7 @@ function yaCaptchaCommentForm($id) {
         ?>
         <p>
             <img src="<?php echo bloginfo('url'); ?>/wp-content/plugins/yacaptcha/captcha-image.php" style="width:100px;height:50px;float:left; margin:5px;" alt="<?php echo __($yaCaptchaCharAlternateCaptchaText); ?>" />
-            <input id="captcha" class="text-input" maxlength=5 name="captcha" type="text" value="" style="width:115px; color:#2060A0; font-size: 40px; padding:5px 3px;"/>        
+            <input id="captcha" class="text-input" maxlength=5 name="captcha" type="text" value="" style="margin-top:5px;line-height:40px;width:115px;color:#2060A0;font-size:40px;padding:5px 3px;height:50px;"/>
             <label for="captcha"><small><?php echo __($yaCaptchaCharInputMsg); ?></small></label>
         </p>
         <?php
