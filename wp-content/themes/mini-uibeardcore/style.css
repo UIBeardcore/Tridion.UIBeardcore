@@ -1045,6 +1045,12 @@ footer.entry-meta {
 	font-weight: normal;
 }
 
+.comment .comment-awaiting-moderation
+{
+	color: #FF0000;
+	font-size: 0.9em;
+	margin: 1rem 0;
+}
 
 /* =Archives
 -------------------------------------------------------------- */
