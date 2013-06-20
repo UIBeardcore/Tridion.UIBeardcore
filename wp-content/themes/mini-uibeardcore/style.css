@@ -1795,6 +1795,23 @@ img#wpstats {
     quotes: none;
 }
 
+.entry-content .github-reference 
+{
+	height: 40px; 
+	line-height:40px; 
+	padding-left: 40px;
+	background: url(images/GitHub-Mark-32px.png) left center no-repeat;
+}
+
+.entry-content .github-reference a
+{
+	color: #4183c4; 
+	white-space: nowrap; 
+	font-weight: bold; 
+	font-size: 20px; 
+	letter-spacing: -1px;
+}
+
 /* Pastie Adjuistments */
 
 .entry-content .pastie, 
