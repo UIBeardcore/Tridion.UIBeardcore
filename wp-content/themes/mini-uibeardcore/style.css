@@ -1812,6 +1812,44 @@ img#wpstats {
 	letter-spacing: -1px;
 }
 
+.entry-content .content-note
+{
+	background-color: #EEEEEE;
+	font-size: 0.85em;
+	margin-left: -4em;
+	padding: 1em 2em;
+}
+
+.entry-content .content-note table
+{
+	line-height: 1.5;
+	border-bottom: 1px solid #ededed;
+}
+
+.entry-content .content-note td
+{
+	padding: 2px 5px;
+	border-top: 1px solid #DEDEDE;
+}
+
+.entry-content .content-note.centred-content td,
+.entry-content .content-note.centred-content th
+{
+	text-align: center;
+}
+
+.entry-content em.attribute-value
+{
+	color: #D20;
+}
+
+.entry-content i.attribute
+{
+	color: #000077;
+}
+
+
+
 /* Pastie Adjuistments */
 
 .entry-content .pastie, 
